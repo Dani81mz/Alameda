@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --blue:#00b8b8;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-bg:#eee;
+   --border:.2rem solid rgba(0,0,0,.1);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.temporal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.temporal a{
+    color: rgb(15, 207, 15);
+}
+
+.temporal p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.temporal h4{
+    line-height: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.ri-phone-line{
+    color: red;
+}
+
+.ri-phone-line a{
+    color: red;
+}
+#tel {
+    color: red;
+    margin-bottom: 4px;
+}
