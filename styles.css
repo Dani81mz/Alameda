@@ -54,6 +54,12 @@ body {
 
 
 
+
+
+
+
+
+
 /**end of cambio añadido**/
 
 
@@ -197,6 +203,10 @@ h2 span {
    border-bottom: var(--border);
 }
 
+.header .active{
+    background-color: var(--white);
+}
+
 .whatsapp {
    position: initial;
    display: block;
@@ -265,7 +275,7 @@ h2 span {
    box-shadow: 0 2px 3px rgba(0 0 0 / 0.15);
  }
 
-.header.active{
+.header .active{
    background-color: var(--white);
    box-shadow: var(--box-shadow);
    border:0;
@@ -304,7 +314,7 @@ h2 span {
 }
 
 .home{
-   background:url(../images/cli6_1.jpg) no-repeat;
+   background:url(images/insta4_1.jpg) no-repeat;
    background-size: cover;
    background-position: center;
 }
