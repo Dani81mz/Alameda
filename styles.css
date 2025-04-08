@@ -105,7 +105,18 @@ section{
    color: #00b8b8;
 }
 
+.video-container video{
+   width: 500px;
+   height: auto;
+   align-items: center;
+   justify-content: center;
+}
 
+video{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 /*galería de imágenes*/
 
